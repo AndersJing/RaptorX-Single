@@ -1,0 +1,15 @@
+name: RaptorX-Single
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.7.15=haa1d7c7_0
+  - pytorch=1.10.0=py3.7_cuda11.3_cudnn8.2.0_0
+  - cudatoolkit=11.3.1=h9edb442_10
+  - pip=22.2.2=py37h06a4308_0
+  - pip:
+    - einops==0.4.0
+    - fair-esm==0.4.0
+    - transformers==4.6.0
+    - sentencepiece==0.1.95
