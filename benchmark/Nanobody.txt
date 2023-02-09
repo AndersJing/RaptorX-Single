@@ -64,14 +64,6 @@
 7whi_G
 7x7e_B
 7z1a_E
-7z1b_F
 7z1c_D
-7z1c_F
 7zml_F
-7zmm_G
-7zmn_K
 7zmo_K
-7zmp_C
-7zmq_C
-7zmr_C
-7zmv_K
