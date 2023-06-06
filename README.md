@@ -85,3 +85,6 @@ The benchmark target lists are saved at `benchmark/`.
 
 
 ## Reference
+
+Jing, Xiaoyang, Fandi Wu, and Jinbo Xu. "RaptorX-Single: single-sequence protein structure prediction by integrating protein language models." bioRxiv (2023): 2023-04.
+
