@@ -85,6 +85,9 @@ The benchmark target lists are saved at `benchmark/`.
 
 
 ## Reference
-Jing, Xiaoyang, Wu, F., Luo, X., & Xu, J. (2024). Single-sequence protein structure prediction by integrating protein language models. Proceedings of the National Academy of Sciences, 121(13), e2308788121.
-Jing, Xiaoyang, Wu, F., Luo, X., & Xu, J. (2023). RaptorX-Single: single-sequence protein structure prediction by integrating protein language models. bioRxiv, 2023-04.
+Jing, Xiaoyang, Wu, F., Luo, X., & Xu, J. (2024). Single-sequence protein structure prediction by integrating protein language models. Proceedings of the National Academy of Sciences, 121(13), e2308788121. <a href="https://www.pnas.org/doi/10.1073/pnas.2308788121"> Link </a>
+
+Jing, Xiaoyang, Wu, F., Luo, X., & Xu, J. (2023). RaptorX-Single: single-sequence protein structure prediction by integrating protein language models. bioRxiv, 2023-04. <a href="https://www.biorxiv.org/content/10.1101/2023.04.24.538081v2"> Link </a>
+
+
 
