@@ -1,6 +1,6 @@
 # RaptorX-Single
 
-RaptorX-Single: exploring the advantage of single sequence based protein structure prediction
+Single-sequence protein structure prediction by integrating protein language models
 
 ## Environment
 ```
@@ -8,6 +8,12 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh -b
 conda env create -f environment.yml
 conda activate RaptorXSingle
+```
+
+## Code
+```
+git clone https://github.com/AndersJing/RaptorX-Single.git
+cd RaptorX-Single/
 ```
 
 ## Parameter
@@ -27,22 +33,23 @@ Download the following parameter files as needed, you can save these files at `p
 
 * prot_t5_xl_uniref50
     ```
-    wget -P params/ https://zenodo.org/record/4644188/files/prot_t5_xl_uniref50.zip?download=1
+    wget -P params/ https://zenodo.org/record/4644188/files/prot_t5_xl_uniref50.zip
     ```
+
 ### Parameters of RaptorX-Single
 Please find the parameters at: <a href="https://doi.org/10.5281/zenodo.7351378"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7351378.svg" alt="DOI"></a>
 
 ### Parameters for general protein structure prediction
-* RaptorX-Single-ESM1b.pt
-* RaptorX-Single-ESM1v.pt
-* RaptorX-Single-ProtTrans.pt
-* RaptorX-Single-ESM1b-ESM1v-ProtTrans.pt
+* RaptorX-Single-ESM1b.pt: `wget -P params/ https://zenodo.org/records/7351378/files/RaptorX-Single-ESM1b.pt`
+* RaptorX-Single-ESM1v.pt: `wget -P params/ https://zenodo.org/records/7351378/files/RaptorX-Single-ESM1v.pt`
+* RaptorX-Single-ProtTrans.pt: `wget -P params/ https://zenodo.org/records/7351378/files/RaptorX-Single-ProtTrans.pt`
+* RaptorX-Single-ESM1b-ESM1v-ProtTrans.pt: `wget -P params/ https://zenodo.org/records/7351378/files/RaptorX-Single-ESM1b-ESM1v-ProtTrans.pt`
 
 ### Parameters for antibody structure prediction
-* RaptorX-Single-ESM1b-Ab.pt
-* RaptorX-Single-ESM1v-Ab.pt
-* RaptorX-Single-ProtTrans-Ab.pt
-* RaptorX-Single-ESM1b-ESM1v-ProtTrans-Ab.pt
+* RaptorX-Single-ESM1b-Ab.pt: `wget -P params/ https://zenodo.org/records/7351378/files/RaptorX-Single-ESM1b-Ab.pt`
+* RaptorX-Single-ESM1v-Ab.pt: `wget -P params/ https://zenodo.org/records/7351378/files/RaptorX-Single-ESM1v-Ab.pt`
+* RaptorX-Single-ProtTrans-Ab.pt: `wget -P params/ https://zenodo.org/records/7351378/files/RaptorX-Single-ProtTrans-Ab.pt`
+* RaptorX-Single-ESM1b-ESM1v-ProtTrans-Ab.pt: `wget -P params/ https://zenodo.org/records/7351378/files/RaptorX-Single-ESM1b-ESM1v-ProtTrans-Ab.pt`
 
 
 ## Usage
